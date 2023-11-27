@@ -1,0 +1,21 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f9f7fc;
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: rgb(253, 239, 239);    
+}
+@media screen and(min-whidth:992px){
+    .content{
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
